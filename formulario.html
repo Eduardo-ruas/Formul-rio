@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>formulario</title>
+</head>
+<body>
+    <div class= "container">
+         <div class="header">
+             <h2>Formulário</h2>
+         </div> 
+
+         <form id="form" class="form">
+             <div class="form-control">
+                 <label for="username"> Nome de usuário</label>
+                 <input type="text" id="username"  placeholder="digite seu nome"/>
+        
+                 <small>mensagem de erro</small>
+             </div>
+
+             <div class="form-control">
+                <label for="cellphone"> Número de telefone</label>
+                <input type="text" id="cellphone"  placeholder="(xx) - xxxxxxxxx"/>
+                
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                    <p><label for="gender"> Sexo </label></p> 
+                    <select  id="gender">
+                    <option value= ""></option> 
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                     <small>mensagem de erro</small>
+                    </select>
+               
+            </div>
+
+            <div class="form-control ">
+                <label for="age"> Idade</label>
+                 <input type="number" id="age"  placeholder="coloque sua idade"/>
+                 <small>mensagem de erro</small> 
+            </div>
+
+
+             <div class="form-control ">
+                <label for="email"> Email</label>
+                <input type="text" id="email" placeholder="example@gmail.com" />
+                <small>mensagem de erro</small>
+            </div>
+
+            <button type="submit">Enviar</button> 
+         </form>
+      </div>  
+      
+      <script src="./formulario.js"></script>
+</body>
+</html>
